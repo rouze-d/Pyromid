@@ -4,6 +4,8 @@
 
 ### Pyromid V4 [New Version]
 support Different Types of Bitcoin Addresses
+
+example Types of Bitcoin Addresses:
 ```
 Legacy (P2PKH)
 compressed    : 1ExzZjGNEETzT28yHhZeFMQFCASp6FzQds
