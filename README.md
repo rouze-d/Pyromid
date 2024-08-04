@@ -22,7 +22,8 @@ python3 install modules
 ```
 pip3 install bip32utils
 pip3 install argparse
-pip3 install mnemonic bit
+pip3 install mnemonic
+pip3 install bit
 ```
 Download letest bitcon address with balance
 here : http://addresses.loyce.club/
@@ -30,7 +31,7 @@ here : http://addresses.loyce.club/
 gunzip Bitcoin_addresses_LATEST.txt.gz
 
 ```
-$ python3 pyromid-V4.py -r Rich.txt -o win.txt -t 4
+$ python3 pyromid-V4.py -r Bitcoin_addresses_LATEST.txt -o win.txt -t 4
 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 [4] Compressed    : 1AZq6BRbEis7RkSXWMZTgHG9uH818ixUv7
 [4] UnCompressed  : 15y9jUUFjbL4pj33N8GB3UxeJ1FRAWsUmS 
